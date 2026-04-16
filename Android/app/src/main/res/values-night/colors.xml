@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_color">#17212B</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#A8B0B9</color>
+    <color name="item_bg">#242F3D</color>
+    <color name="tg_blue">#5288C1</color>
+    <color name="colorSurface">#17212B</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="accentBlue">#5288C1</color>
+</resources>
