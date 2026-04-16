@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?android:attr/windowBackground">
+
+    <TextView
+        android:id="@+id/tvResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result: 00:00.000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Table size"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorSecondary"/>
+        <TextView
+            android:id="@+id/tvResultSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3x3"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnResultOk"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#4E6BB2"
+        android:textColor="#FFFFFF"
+        android:text="Ok"
+        android:textStyle="bold"/>
+</LinearLayout>

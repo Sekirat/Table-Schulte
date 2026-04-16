@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#17212B"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textColor="#5288C1"
+        android:textSize="28sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvGridSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid Size: 3x3"
+        android:textColor="#A8B0B9" />
+
+    <SeekBar
+        android:id="@+id/seekGridSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="7"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appearance"
+        android:textColor="#A8B0B9" />
+
+    <RadioGroup
+        android:id="@+id/themeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <RadioButton android:id="@+id/themeAuto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="System" android:textColor="#FFF"/>
+        <RadioButton android:id="@+id/themeLight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Light" android:textColor="#FFF"/>
+        <RadioButton android:id="@+id/themeDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dark" android:textColor="#FFF"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibration"
+        android:textColor="#A8B0B9" />
+
+    <RadioGroup
+        android:id="@+id/vibModeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/vibDisabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disabled" android:textColor="#FFF"/>
+        <RadioButton android:id="@+id/vibCorrect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="On Correct" android:textColor="#FFF"/>
+        <RadioButton android:id="@+id/vibWrong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="On Wrong" android:textColor="#FFF"/>
+        <RadioButton android:id="@+id/vibAlways" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Always" android:textColor="#FFF"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvVibMs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibration Force: 50ms"
+        android:textColor="#A8B0B9"
+        android:layout_marginTop="8dp"/>
+
+    <SeekBar
+        android:id="@+id/seekVibMs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="300"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gameplay Visuals"
+        android:textColor="#A8B0B9" />
+
+    <RadioGroup
+        android:id="@+id/colorGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp">
+        <RadioButton android:id="@+id/colorGreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Green" android:textColor="#FFF"/>
+        <RadioButton android:id="@+id/colorGray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gray" android:textColor="#FFF"/>
+        <RadioButton android:id="@+id/colorOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disabled" android:textColor="#FFF"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/tg_button_bg"
+        android:text="BACK"
+        android:textColor="#FFF" />
+</LinearLayout>
