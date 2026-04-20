@@ -1,0 +1,14 @@
+<activity xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/colorSurface"
+    android:textColor="?attr/colorOnSurface"
+    tools:context=".GameActivity">
+
+    <!-- Other XML content... -->
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Text"
+        android:textColor="?attr/colorSecondary" />
+
+</activity>
